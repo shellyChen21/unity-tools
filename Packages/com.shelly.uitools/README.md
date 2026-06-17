@@ -1,4 +1,4 @@
-# UI Tools (com.yihsuan.uitools)
+# UI Tools (com.shelly.uitools)
 
 UI 相關工具集。Unity 6 / 2023.2 以上適用。
 

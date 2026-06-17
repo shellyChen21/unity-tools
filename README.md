@@ -1,13 +1,13 @@
 # unity-tools
 
-Yi Hsuan 的 Unity 工具庫（mono-repo）。每個工具是一個獨立的 UPM package，可單獨匯入。
+Shelly 的 Unity 工具庫（mono-repo）。每個工具是一個獨立的 UPM package，可單獨匯入。
 
 ## 結構
 
 ```
 unity-tools/
 └── Packages/
-    └── com.yihsuan.uitools/      ← UI 工具
+    └── com.shelly.uitools/      ← UI 工具
     （之後 upload/download、scene 等工具會以同樣方式加在這裡）
 ```
 
@@ -16,7 +16,7 @@ unity-tools/
 Package Manager → Add package from git URL，用 `?path=` 指到目標工具：
 
 ```
-https://github.com/yi-hsuan/unity-tools.git?path=/Packages/com.yihsuan.uitools#uitools/v1.0.0
+https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.uitools#uitools/v1.0.0
 ```
 
 - `?path=` 決定只拉哪一個工具，其他不會被帶進使用端專案
