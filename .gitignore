@@ -1,0 +1,23 @@
+# .gitignore — Unity tools / UPM package repo 專用
+# 注意：本 repo 不是 Unity 專案，是被「掛進」測試專案開發的，
+# 因此不需要 Library/ Temp/ Build/ 等專案層級的忽略規則。
+
+# ── IDE / 編輯器（直接用 IDE 開啟本資料夾編輯腳本時會產生）──
+.idea/
+.vs/
+.vscode/
+
+# ── 自動生成、任何情況都不該進版控 ──
+*.csproj
+*.sln
+*.user
+
+# ── 作業系統雜檔 ──
+.DS_Store
+Thumbs.db
+
+# ── 保護用（防呆）──
+# .meta 是 UPM package 的命脈：prefab／場景靠它的 GUID 引用腳本與資源，
+# 必須跟著 package 進 git。本檔目前沒有任何忽略 .meta 的規則，
+# 這行是明確的防呆，避免日後誤加 *.meta 之類的全域忽略。
+!*.meta

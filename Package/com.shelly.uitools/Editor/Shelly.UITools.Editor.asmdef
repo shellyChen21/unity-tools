@@ -1,0 +1,18 @@
+{
+    "name": "Shelly.UITools.Editor",
+    "rootNamespace": "Shelly.UITools.Editor",
+    "references": [
+        "Shelly.UITools"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
