@@ -1,6 +1,6 @@
 {
   "name": "com.shelly.uitools",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "UI Tools",
   "description": "UI 相關工具集。Unity 6 / 2023.2 以上適用（TextMeshPro 已內建於 com.unity.ugui）。",
   "unity": "2023.2",
@@ -8,6 +8,7 @@
     "name": "Shelly"
   },
   "dependencies": {
-    "com.unity.ugui": "2.0.0"
+    "com.unity.ugui": "2.0.0",
+    "com.kyrylokuzyk.primetween" : "1.3.3"
   }
 }

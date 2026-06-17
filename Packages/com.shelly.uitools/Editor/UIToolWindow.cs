@@ -5,7 +5,7 @@ namespace YiHsuan.UITools.Editor
 {
     /// <summary>
     /// 範例自訂編輯器視窗。
-    /// 開啟方式：Unity 上方選單 Tools / Yi Hsuan / UI Tools。
+    /// 開啟方式：Unity 上方選單 Tools / Shelly / UI Tools。
     ///
     /// 驗收用途：
     /// - 選單出現、視窗能開、按鈕能按 = 關卡 1「可編譯」+ Editor asmdef 設定正確。
@@ -14,7 +14,7 @@ namespace YiHsuan.UITools.Editor
     /// </summary>
     public class UIToolWindow : EditorWindow
     {
-        [MenuItem("Tools/Yi Hsuan/UI Tools")]
+        [MenuItem("Tools/Shelly/UI Tools")]
         public static void Open()
         {
             GetWindow<UIToolWindow>("UI Tools");

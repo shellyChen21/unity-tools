@@ -2,7 +2,8 @@
     "name": "Shelly.UITools",
     "rootNamespace": "Shelly.UITools",
     "references": [
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "PrimeTween"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
