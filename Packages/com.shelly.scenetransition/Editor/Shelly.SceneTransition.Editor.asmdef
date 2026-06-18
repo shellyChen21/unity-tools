@@ -1,0 +1,18 @@
+{
+    "name": "Shelly.SceneTransition.Editor",
+    "rootNamespace": "Shelly.SceneTransition.Editor",
+    "references": [
+        "Shelly.SceneTransition"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
