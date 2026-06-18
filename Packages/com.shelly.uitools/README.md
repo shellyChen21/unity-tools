@@ -18,16 +18,19 @@ Project Settings → Package Manager → Scoped Registries → 新增
 Package Manager → Add package from git URL：
 
 ```
-https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.uitools#uitools/v1.0.0
+https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.uitools#uitools/v1.2.0
 ```
 
 開發階段在本機測試，改用 Add package from disk，指向本資料夾的 `package.json`。
 
 ## 內容
 
-- `Runtime/Scripts/UIToolExample.cs` — 範例 Runtime 元件
 - `Editor/UIToolWindow.cs` — 範例編輯器視窗（選單 Tools / Shelly / UI Tools）
 - `Runtime/Resources/` — UI 資源（prefab、圖、字型）放這裡，**勿引用專案 Assets/ 底下的東西**
+- `Runtime/Scripts/CanvasResolutionHandler.cs` — Canvas 解析度自適應處理
+- `Runtime/Scripts/Utilities/UIVisibility.cs` — CanvasGroup 即時顯示/隱藏
+- `Runtime/Scripts/Utilities/UITween.cs` — 常用 Tween 工具（Scale、Alpha）
+
 
 ## 版本相依說明
 
