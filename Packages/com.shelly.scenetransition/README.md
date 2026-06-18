@@ -16,7 +16,7 @@ Project Settings → Package Manager → Scoped Registries → 新增
 Package Manager → Add package from git URL：
 
 ```
-https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.scenetransition#scene/v1.0.0
+https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.scenetransition#scene/v2.0.0
 ```
 
 開發階段在本機測試，改用 Add package from disk，指向本資料夾的 `package.json`。

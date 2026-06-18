@@ -1,6 +1,6 @@
 {
   "name": "com.shelly.scenetransition",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "displayName": "Scene Transition",
   "description": "場景切換／載入工具，含轉場動畫。Unity 6 / 2023.2 以上適用。",
   "unity": "2023.2",
