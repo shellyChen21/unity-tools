@@ -1,7 +1,9 @@
 {
     "name": "Shelly.SceneTransition",
     "rootNamespace": "Shelly.SceneTransition",
-    "references": [],
+    "references": [
+        "UniTask"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
