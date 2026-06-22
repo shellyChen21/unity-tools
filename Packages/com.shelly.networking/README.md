@@ -18,7 +18,7 @@ Project Settings → Package Manager → Scoped Registries → 新增
 Package Manager → Add package from git URL：
 
 ```
-https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.networking#net/v1.0.0
+https://github.com/shellyChen21/unity-tools.git?path=/Packages/com.shelly.networking#net/v1.1.0
 ```
 
 ## 內容
