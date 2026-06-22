@@ -86,7 +86,7 @@ namespace Shelly.Networking
         /// <summary>送出請求；失敗丟例外、成功反序列化為 T。完成後釋放 UnityWebRequest。</summary>
         public async UniTask<TResponseData> StartRequest<TResponseData>()
         {
-            using (req)  
+            using (req)
             {
                 await req.SendWebRequest();
 
@@ -94,6 +94,20 @@ namespace Shelly.Networking
                     throw new Exception(req.error);
 
                 return JsonUtility.FromJson<TResponseData>(req.downloadHandler.text);
+            }
+        }
+
+        /// <summary>送出請求；失敗丟例外、成功回傳原始回應字串（不做 JSON 反序列化）。完成後釋放 UnityWebRequest。</summary>
+        public async UniTask<string> StartRequest()
+        {
+            using (req)
+            {
+                await req.SendWebRequest();
+
+                if (req.result != UnityWebRequest.Result.Success)
+                    throw new Exception(req.error);
+
+                return req.downloadHandler.text;
             }
         }
 
