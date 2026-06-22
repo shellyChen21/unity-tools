@@ -1,0 +1,13 @@
+{
+  "name": "com.shelly.networking",
+  "version": "1.0.0",
+  "displayName": "Networking",
+  "description": "網路通訊層：REST API（GET/POST），JSON 序列化。基於 UnityWebRequest + UniTask。",
+  "unity": "2023.2",
+  "author": {
+    "name": "Shelly"
+  },
+  "dependencies": {
+    "com.cysharp.unitask" : "2.5.11"
+  }
+}
